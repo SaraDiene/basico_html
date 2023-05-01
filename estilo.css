@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color:  #001F5F;
+   
+}
+
+main{
+    margin: 0 60px;
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    color: #001F5F;
+    text-align: center;
+    padding: 15px 0;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+h3{
+    margin: 0 15px 0 15px; 
+    font-size: 1.5em;
+
+}
+
+h4{
+    margin: 0 15px; 
+    font-size: 1.5em;
+}
+
+span{
+    color: black;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-left: 30px;
+}
+
+p{
+    color: #abbbd3;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Sessão informações pessoais */
+.infos_pessoais{
+    background-color: #abbbd3;
+    margin: 20px 0;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+
+}
+.profile{
+    margin: 0 auto;
+    width: 60%;
+    border-radius: 50%;
+    border: 3px solid  #001F5F;
+    display: block;
+}
+
+.titulo_principal{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0 5px;
+    margin: 20px 5px 5px 0px;
+}
+
+.endereco{
+    text-align: center;
+    font-size: .8em;
+}
+.endereco li{
+    list-style: none;
+}
+
+.endereco p,li{
+    line-height: 22px;
+}
+
+.link{
+    color: #001F5F;
+}
+.link:hover{
+    color: rgb(221, 62, 4);
+    font-weight: bold;
+}
+/* Sessão informações profissionais */
+.infos_profissionais{
+   background-color:#4B6982;
+   border-radius: 0 15px 0 0 ;
+   height: 100%;
+   }
+
+.objetivos p{
+    margin: 0 15px; 
+}
+
+/*Sessão Formação*/
+
+.formacao li{
+     margin: 0 30px;
+     font-weight: bold;
+}
+
+.formacao p{
+    margin: 0 30px;
+    line-height: 22px;
+}
+
+/*Sessão Experiência*/
+
+.experiencia p{
+    margin: 5px 15px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+/*Sessão Cursos */
+
+.escola{
+    font-weight: bold;
+    color: #001F5F;
+    margin: 10px 15px;
+    
+}
+
+.periodo{
+    margin: 0px 0px 15px 15px;
+   
+    padding-bottom: 15px;
+}
+
+
+
+@media (min-width: 950px){
+    
+    /*Grid*/
+    .grid {
+        display: grid;
+        grid-template-columns: 350px auto;
+    }
+
+     /*Sessão Informações pessoais */
+    .infos_pessoais{
+        background-color: #abbbd3;
+        margin: 20px 0;
+        border-radius: 5px;
+        width: 100%;
+        padding: 10px;
+        height: 100%;
+    }
+
+    .titulo_principal{
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        padding: 0 5px;
+        margin: 20px 0 5px 0;
+    }
+
+    .profile{
+        margin: 0 auto;
+        width: 100%;
+        border-radius: 50%;
+        border: 3px solid  #001F5F;
+        display: block;
+    }  
+
+    .endereco{
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .endereco p,li{
+        line-height: 30px;
+    }
+
+    /*Sessão informações profissionais*/
+
+    .infos_profissionais{
+        background-color:#4B6982;
+        border-radius: 0 15px 0 0 ;
+        margin: 20px;
+    }
+
+    .colunas{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .funcao{
+        border-left: 3px solid #a5a3a3;
+        padding-left: 5px;
+}
+
+    .texto_funcao{
+      padding: 0 10px;
+    
+    }
+
+
+
+}

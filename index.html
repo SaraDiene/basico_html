@@ -5,89 +5,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="img/raposa.png">
+
+    <script src="https://unpkg.com/phosphor-icons"></script>
+
+    <link rel="icon" type="image/x-icon" href="img/raposa.png">
+    <link rel="stylesheet" href="estilo.css">
+
+     <!-- Google font  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+ 
+     <!-- font-awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Currículo Sara</title>
 </head>
 
 <body>
+    <main class="grid grid-template-columns">
 
-    <section>
-        
-            <h1>Sara Diene Andrade Mendes de Abreu</h1>
-        
-        <hr>
-                <p>Rua de Sofia, 28 - Duque de Caxias II - Betim/MG</p>
-                <p>CEP: 32673-610</p>
-                <p>Telefone: 9999-9999</p>
-                <p>Email: saraabreu.dev@gmail.com</p>
-    </section>
+        <section class="infos_pessoais">
+               <img src="img/Sem título.png" alt="Foto Perfil" class="profile">
+                <h1 class="titulo_principal">Sara Abreu</h1>
+                <div class="endereco">              
+                    <p> Betim/MG</p>
+                    <ul>
+                        <li> <i class="ph ph-whatsapp-logo"></i> (31) 9999-9999</li>
+                        <li> <i class="ph-envelope-open"></i> saraabreu.dev@gmail.com</li>
+                        <li> <i class="ph-linkedin-logo"></i>
+                            <a href="https://www.linkedin.com/in/sara-diene-abreu/" target="_blank"> <span class="link"> SaraDiene </span> </a>
+                        </li>
+                        <li> <i class="ph-github-logo"></i>
+                           <a href="https://github.com/SaraDiene" target="_blank"> <span class="link"> SaraDiene </span></a>
+                        </li>
+                    </ul>
+                </div>
+        </section>
 
-    <section>
+        <section class="infos_profissionais">
 
-        <h2>Objetivo</h2>
-            <p>Desenvolvimento de sistema ou função correlata</p>
-    </section>
+            <section class="objetivos">
 
-    <section>
-        <h2>Formação</h2>
+                <h2>Objetivo</h2>
+                <p>Desenvolvimento de sistema ou função correlata.</p>
+            </section>
 
-        <ul>
-            <li>Engenharia de Software</li>
-            <li>Centro Universitáio Anhanguera Pitágoras Ampli </li>
-            <li>Setembro 2022 – Setembro 2025</li>
-        </ul>
-    </section>
+            <section class="formacao">
+                
+                
+                        <h2>Formação</h2>
+                        <div class="colunas">
 
-    <section>
+                        
+                            <div class="empresa">
+                            <h3>Engenharia de Software </h3>
+                        
+                            </div>
+                        
+                        <div class="descricao">
+                            <p>Centro Universitáio Anhanguera Pitágoras Ampli</p>
+                            <span>Setembro 2022 – Setembro 2025</span>
+                        </div>
+                        
+                    </div>
+            </section>
 
-        <h2>Experiência</h2>
+            <section class="experiencia">
 
-            <h3>Mãodiaço Indústria e Comércio Ltda</h3>
-                <p> Empresa de médio porte no segmento de peças para tratores </p>
-                    <p> Janeiro/2010 a Junho/2016 </p>
-                <h4>Cargo</h4>
-                    <p> Auxiliar de escritório </p>
-                <h4>Função</h4>
-                    <p>Realização de controle das atividades da área Administrativa, envolvendo cobrança, faturamento, emissão de
-            notas fiscais, atendimento ao cliente, venda e pós venda</p>
+                <h2>Experiência</h2>
 
-            <h3>Horizontes Informática Ltda </h3>
-                <p>Empresa de pequeno porte no segmento de informática</p>
-                    <p>Outubro/2008 a Junho/2009</p>
-                <h4>Cargo</h4>
-                    <p>Vendedora</p>
-                <h4>Função</h4>
-                    <p>Realização de vendas de cursos por telefone e presencial, e artigos de informática em geral</p>
-    </section>
+                <div class="colunas">
+                    <div class="empresa">
+                        <h3>Mãodiaço Ind. e Com. Ltda</h3>
+                        <span> Janeiro/2010 a Junho/2016 </span>
+                        <p> Auxiliar de escritório </p>
+                </div>
+                    
+                    <div class="descricao">                       
+                            <h4 class="texto_funcao">Função</h4>
+                            <p class="funcao">Controle das atividades da área Administrativa, envolvendo cobrança, faturamento, emissão de
+                        notas fiscais, atendimento ao cliente, venda e pós venda.</p>
+                    </div>
+                    <div class="empresa">               
+                        <h3>Horizontes Informática Ltda </h3>
+                        <span>Outubro/2008 a Junho/2009</span>
+                        <p>Vendedora</p>
+                    </div>
+                    <div class="descricao"> 
+                            <h4 class="texto_funcao">Função</h4>
+                            <p class="funcao">Realização de vendas de cursos por telefone e presencial, e artigos de informática em geral.</p>
+                    </div>
+            </div>
+            </section>
 
-    <section>
+            <section class="cursos">
 
-        <h2>Cursos</h2>
+                <h2>Cursos</h2>
 
-            <h3>Assistente Administrativo</h3>
-                <ul>
-                    <li>Senac/MG</li>
-                    <li>Abril ~ Junho de 2021</li>
-                    <li>160h</li>
-                </ul>
-            <h3>Programador Web</h3>
-                <ul>
-                    <li>Senac/MG</li>
-                    <li>Agosto ~ Dezembro de 2021</li>
-                    <li>240h</li>
-                </ul>
-            <h3>Programador de Sistemas</h3>
-                <ul>
-                    <li>Senac/MG</li>
-                    <li>Dezembro 2021 ~ Abril de 2022</li>
-                    <li>240h</li>
-                </ul>
-            <h3>Desenvolvedor FullStack</h3>
-                <ul>
-                    <li>StackX - Formação de Desenvolvedores de Software</li>
-                    <li>Março 2023 ~ atualmente</li>
-                </ul>
-    </section>
+                <div class="colunas">
+                    <div>
+                        <h3>Assistente Administrativo</h3>
+                       
+                                <p class="escola">Senac/MG</p>
+                                <p class="periodo">Abril ~ Junho de 2021 / 160h</p>
+                       
+                    </div>
+                        
+                    <div>                    
+                        <h3>Programador Web</h3>
+                        
+                            <p class="escola">Senac/MG</p>
+                            <p class="periodo">Agosto ~ Dezembro de 2021 / 240h</p>
+                           
+                    </div>
+                    <div>
+                    <h3>Programador de Sistemas</h3>
+                        
+                            <p class="escola">Senac/MG</p>
+                            <p class="periodo">Dezembro 2021 ~ Abril de 2022 / 240h</p>
+                          
+                    </div>
+                    
+                    <div>
+                    <h3>Desenvolvedor FullStack</h3>
+                        
+                            <p class="escola">StackX - Formação de Desenvolvedores de Software</p>
+                            <p class="periodo">Março 2023 ~ Atualmente / 590h</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
 
 </body>
 
